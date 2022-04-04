@@ -27,6 +27,10 @@ ul {
   list-style: inside;
 }
 
+img {
+  width: 35px;
+}
+
 .hr {
   border-bottom: 3px solid #e1e1e1;
   padding-bottom: 32px;
@@ -88,6 +92,13 @@ blockquote {
 
 .roboto {
   font-family: "Roboto Mono", monospace;
+}
+
+.info {
+  background-color: #eef4f7;
+  font-size: 14px;
+  padding: 12px;
+  margin-top: 12px;
 }
 
 @media only screen and (max-width: 740px) {
