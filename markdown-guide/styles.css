@@ -31,6 +31,29 @@ img {
   width: 35px;
 }
 
+tr, th{
+  display: flex;
+  align-items: flex-start;
+}
+
+ th, td{
+  width: 140px;
+  flex: 1;
+  padding: 4px 8px;
+}
+
+th{
+  background-color: #f0f0f0;
+}
+
+ tr:nth-child(n + 1){
+  background-color: #fcfcfc;
+}
+
+ tr:nth-child(2n){
+  background-color: #f6f6f6;
+}
+
 .hr {
   border-bottom: 3px solid #e1e1e1;
   padding-bottom: 32px;
@@ -78,6 +101,15 @@ blockquote {
 .col:last-child {
   /* font-size: 15px; */
   color: #313131;
+}
+
+.policy > h3{
+  margin-block: 16px;
+}
+
+.policy .row{
+  border-top: 1px solid #e4e4e4;
+
 }
 
 .preformatted {
